@@ -1,69 +1,3 @@
-const card1_open = document.getElementById("card1-open");
-const card1_close = document.getElementById("card1-close");
-const card2_open = document.getElementById("card2-open");
-const card2_close = document.getElementById("card2-close");
-const card3_open = document.getElementById("card3-open");
-const card3_close = document.getElementById("card3-close");
-const card4_open = document.getElementById("card4-open");
-const card4_close = document.getElementById("card4-close");
-
-const fadeDuration = 100; // Adjust this value to control the fade-in duration in milliseconds
-
-function hideAllCards() {
-  hideCard(card1_open, card1_close);
-  hideCard(card2_open, card2_close);
-  hideCard(card3_open, card3_close);
-  hideCard(card4_open, card4_close);
-}
-
-function hideCard(open, close) {
-  close.style.opacity = "1";
-  open.style.opacity = "0";
-  close.style.display = "block";
-  open.style.display = "none";
-}
-
-function fadeInCard(open, close) {
-  let opacity = 0;
-  close.style.display = "block";
-  const interval = fadeDuration / 5;
-
-  const fadeInterval = setInterval(() => {
-    opacity += 0.1;
-    close.style.opacity = (1 - opacity).toString();
-    open.style.opacity = opacity.toString();
-
-    if (opacity >= 1) {
-      clearInterval(fadeInterval);
-      open.style.display = "block";
-      close.style.display = "none";
-    }
-  }, interval);
-}
-
-function myFunctionCard1() {
-  hideAllCards();
-  fadeInCard(card1_open, card1_close);
-}
-
-function myFunctionCard2() {
-  hideAllCards();
-  fadeInCard(card2_open, card2_close);
-}
-
-function myFunctionCard3() {
-  hideAllCards();
-  fadeInCard(card3_open, card3_close);
-}
-
-function myFunctionCard4() {
-  hideAllCards();
-  fadeInCard(card4_open, card4_close);
-}
-
-
-
-/*Tabs */
 
 const tabs = document.querySelectorAll("[data-tab-target]");
 const tabContents = document.querySelectorAll("[data-tab-content]");
@@ -159,18 +93,6 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
-/* Presales button */
-// let off = document.getElementById("off");
-// let on = document.getElementById("on");
-// let radio = document.querySelector(".c-radio");
-
-// off.addEventListener("click", () => {
-//   radio.classList.add("off");
-// });
-
-// on.addEventListener("click", () => {
-//   radio.classList.remove("off");
-// });
 var button = document.getElementById("button-container");
 var email = document.getElementById("c-fail");
 var phone = document.getElementById("c-braincert");
