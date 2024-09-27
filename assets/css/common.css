@@ -1,0 +1,478 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* common components start */
+.c-button {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #0b163f;
+  border: 1px solid #ffbb0c;
+  padding: 12.5px 16px;
+  border-radius: 8px;
+  letter-spacing: -0.1px;
+}
+.c-button:hover {
+  background: #ffbb0c;
+  color: #101828;
+}
+.c-signup {
+  margin-right: auto;
+}
+.c-primary-button {
+  width: max-content;
+  z-index: 1;
+  margin: auto;
+}
+.c-primary-button--mod {
+  padding: 8px 12px;
+  z-index: 1;
+}
+.c-mb-0 {
+  margin-bottom: 0;
+}
+.c-primary-button__link {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 16px;
+  color: #101828;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #101828;
+  padding: 12.5px 16px;
+  background: #ffbb0c;
+  border-radius: 4px;
+  letter-spacing: -0.1px;
+}
+.c-primary-button__link--mod {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1f1414;
+  letter-spacing: -0.1px;
+}
+.c-banner-button__link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #101828;
+  padding: 12.5px 16px;
+  background: #ffbb0c;
+  border-radius: 4px;
+  letter-spacing: -0.1px;
+}
+/* common components end */
+
+/* common section Testimonial start*/
+
+.c-testimonial {
+  position: relative;
+  background: #eef1ff;
+  border-radius: 16px;
+  padding: 32px 24px 24px 24px;
+  margin-top: 44px;
+}
+.c-testimonial--mod {
+  background: #ffffff;
+  border: 2px solid #0b163f;
+}
+.c-testimonial-author-logo {
+  display: none;
+}
+.c-testimonials-logo {
+  position: absolute;
+  max-width: 130px;
+  max-height: 120px;
+  top: -70px;
+  left: -10px;
+}
+.c-border-testimonials {
+  position: absolute;
+  border: 2px solid #0b163f;
+  border-radius: 16px;
+  z-index: -1;
+}
+.c-border-testimonials-pricing {
+  position: absolute;
+  border: 2px solid #0b163f;
+  border-radius: 16px;
+  z-index: -1;
+}
+.c-border-testimonials--mod {
+  background: #eef1ff;
+  border: none;
+}
+.c-testimonials-logo--img {
+  width: 100%;
+  height: 100%;
+}
+.c-testimonial-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #0b163f;
+  margin-bottom: 12px;
+}
+.c-testimonial-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #312929;
+  margin-bottom: 19px;
+}
+.c-testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.c-testimonial-author-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #0b163f;
+}
+.c-testimonial-author-role {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: center;
+  color: #0b163f;
+}
+/* common section Testimonial end */
+
+/* common section signup start */
+.s-signup {
+  margin-top: 32px;
+  overflow: hidden;
+}
+.c-signup--container {
+  background: #0b163f;
+  padding: 32px 24px;
+  border-radius: 8px;
+  position: relative;
+}
+.c-signup-ellipse-1 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 34px;
+  height: 58px;
+}
+.c-signup-ellipse-2 {
+  position: absolute;
+  bottom: 0%;
+  right: -2%;
+  width: 100px;
+  height: 30px;
+}
+.c-signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 0 20px;
+  padding-top: 20px;
+}
+.c-signup-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #ffffff;
+  z-index: 1;
+  margin-bottom: 16px;
+}
+.c-signup--button {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+  margin-bottom: 0 !important;
+  border-radius: 4px !important;
+}
+.c-signup--button__link {
+  font-weight: 500;
+  color: #1f1414;
+}
+/* common section signup end */
+
+/* video-iframe */
+.c-banner-video {
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 8px;
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+.c-banner-video__src {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: rgba(197, 197, 197, 0.05);
+  border-radius: 8px;
+}
+/* video-iframe */
+
+.c-display-none--sm {
+  display: none;
+}
+
+.c-header-signup {
+  padding: 0 20px;
+}
+
+@media (min-width: 768px) {
+  .c-banner-button__link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #101828;
+    padding: 16px 32px;
+  }
+  /* section signup start */
+  .c-signup--container {
+    padding: 48px 40px;
+  }
+  .s-signup {
+    margin-top: 60px;
+  }
+  .c-signup--container {
+    border-radius: 16px;
+  }
+  .c-signup-ellipse-1 {
+    width: 82px;
+    height: 58px;
+  }
+  .c-signup-ellipse-2 {
+    right: -2.5%;
+    width: 150px;
+    height: 45px;
+  }
+  .c-signup {
+    flex-direction: row;
+    /* justify-content: end; */
+  }
+  .c-signup-title {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+  .c-signup--button__link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .c-primary-button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .c-primary-button--mod {
+    margin-right: 0%;
+  }
+  .c-signup--button {
+    padding: 16px 32px !important;
+    border-radius: 8px !important;
+  }
+  .c-primary-button__link {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 16px 32px;
+    border-radius: 8px;
+  }
+  /* section signup end */
+
+  /* section testimonials start */
+  .c-testimonial-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .c-testimonial-description {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .c-testimonials-logo {
+    max-width: 180px;
+    max-height: 100px;
+    top: -100px;
+    left: -10px;
+  }
+  .c-testimonial-author-name {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .c-testimonial-author-role {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  /* section testimonials end */
+  .c-display-block--md {
+    display: block;
+  }
+  .c-display-none--md {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .c-primary-button {
+    margin-bottom: 81px;
+  }
+  .c-margin-bottom-0 {
+    margin-bottom: 0;
+  }
+  .c-margin-btn {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .c-margin-btn--mod {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0;
+    margin-right: auto;
+  }
+  .c-primary-button-ml--mod {
+    margin-left: 0%;
+  }
+  .c-primary-button__link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0.1px;
+    color: #1f1414;
+    padding: 16px 32px;
+  }
+  .c-banner-button__link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #101828;
+    padding: 16px 32px;
+    background: #ffbb0c;
+    border-radius: 8px;
+  }
+  /* section testimonials start */
+  .s-testimonial {
+    padding: 80px 0;
+  }
+  .c-testimonial {
+    width: 1100px;
+    padding: 70px 70px 46px 80px;
+  }
+  .c-testimonials {
+    width: 1100px;
+  }
+  .c-testimonials-logo {
+    max-width: 350px;
+    max-height: 320px;
+    top: -160px;
+    left: -10px;
+  }
+  .c-border-testimonials {
+    width: 1100px;
+    height: 300px;
+    left: 20px;
+    top: 20px;
+  }
+  .c-border-testimonials-pricing {
+    width: 1100px;
+    height: 300px;
+    left: 20px;
+    top: -20px;
+  }
+  .c-testimonial-author-logo {
+    display: block;
+    margin-bottom: 12px;
+  }
+  .c-testimonial-author {
+    flex-direction: column;
+    align-content: flex-end;
+    gap: 0px;
+  }
+  .c-testimonial-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 32px;
+  }
+  .c-testimonial-description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    margin-bottom: 0;
+  }
+  .c-testimonial-author-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .c-testimonial-author-role {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  /* section testimonials end */
+
+  /* section signup start */
+  .c-signup--container {
+    padding: 78px 80px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .s-signup {
+    margin-top: 100px;
+  }
+  .c-header-signup {
+    padding: 0;
+  }
+  .c-signup-ellipse-1 {
+    width: 122px;
+    height: 108px;
+  }
+  .c-signup-ellipse-2 {
+    right: 2.5%;
+    width: 200px;
+    height: 80px;
+  }
+  .c-signup {
+    flex-direction: row;
+    justify-content: end;
+    padding: 0;
+  }
+  .c-signup-title {
+    font-size: 48px;
+    line-height: 72px;
+    text-align: left;
+    margin-bottom: 0;
+  }
+  .c-signup--button {
+    padding: 16px 32px !important;
+  }
+  .c-signup--button__link {
+    font-weight: 500;
+    line-height: 36px;
+  }
+  /* section signup end */
+  .c-banner-video__src {
+    border-radius: 16px;
+  }
+  .c-display-block--lg {
+    display: block;
+  }
+  .c-display-none--lg {
+    display: none;
+  }
+}
+.c-button--soft {
+  background: #ffbb0c;
+}
