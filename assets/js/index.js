@@ -133,16 +133,12 @@ button.addEventListener("click", function () {
 let toggle = document.querySelector("#c-toggle-switch");
 
 toggle.addEventListener("click", (e) => {
-  console.log("okay");
-
-
   let toggle3 = document.querySelector("#c-toggle-3");
   let toggle4 = document.querySelector("#c-toggle-4");
   if (
     toggle3.classList.contains("c-toggle-display-block") &&
     toggle4.classList.contains("c-toggle-display-none")
   ) {
-    console.log("4");
     toggle3.classList.remove("c-toggle-display-block");
     toggle3.classList.add("c-toggle-display-none");
     toggle4.classList.remove("c-toggle-display-none");
@@ -151,7 +147,6 @@ toggle.addEventListener("click", (e) => {
     toggle3.classList.contains("c-toggle-display-none") &&
     toggle4.classList.contains("c-toggle-display-block")
   ) {
-    console.log("5");
     toggle3.classList.remove("c-toggle-display-none");
     toggle3.classList.add("c-toggle-display-block");
     toggle4.classList.remove("c-toggle-display-block");

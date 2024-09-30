@@ -136,13 +136,13 @@ body {
 
 /* section rewards end */
 
-/* section Presales start */
-.s-presales {
+/* section braincert start */
+.s-braincert {
   margin-top: 66px;
   background: #0b163f;
   padding: 32px 0;
 }
-.c-presales-title {
+.c-braincert-title {
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
@@ -150,7 +150,7 @@ body {
   color: #ffffff;
   margin-bottom: 16px;
 }
-.c-presales-description {
+.c-braincert-description {
   width: 95%;
   font-weight: 400;
   font-size: 16px;
@@ -162,10 +162,10 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.c-presales-img {
+.c-braincert-img {
   width: 100%;
 }
-.c-presales-img--mob {
+.c-braincert-img--mob {
   width: 350px;
   margin: auto;
   display: flex;
@@ -224,7 +224,7 @@ body {
 .c-label-toggle {
   display: none;
 }
-/* section Presales end */
+/* section braincert end */
 
 /*section Features start */
 .s-features {
@@ -385,17 +385,17 @@ body {
 }
 /*section Features end */
 
-/*section Gartner end */
-.s-gartner {
+/*section solution end */
+.s-solution {
   margin-top: 40px;
 }
-.c-gartner--container {
+.c-solution--container {
   background: #ffffff;
   box-shadow: 0px 1px 60px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   padding: 24px 16px;
 }
-.c-gartner-title {
+.c-solution-title {
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -404,7 +404,7 @@ body {
   text-align: center;
   margin-bottom: 16px;
 }
-.c-gartner-description {
+.c-solution-description {
   font-style: italic;
   font-weight: 500;
   font-size: 12px;
@@ -413,31 +413,31 @@ body {
   color: #1f1414;
   margin-bottom: 12px;
 }
-.c-gartner-image {
+.c-solution-image {
   max-width: 446px;
   max-height: 306px;
   margin-bottom: 16px;
   margin-left: auto;
   margin-right: auto;
 }
-.c-gartner-image__src {
+.c-solution-image__src {
   width: 100%;
   height: 100%;
 }
-.c-gartner-sub-title {
+.c-solution-sub-title {
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
   color: #1f1414;
   margin-bottom: 12px;
 }
-.c-gartner-sub-description {
+.c-solution-sub-description {
   font-weight: 400;
   font-size: 12px;
   line-height: 22px;
   color: #1f1414;
 }
-/*section Gartner end */
+/*section solution end */
 /* section benefits start */
 .s-benefits {
   margin: 24px 0;
@@ -618,27 +618,27 @@ body {
   }
   /* section rewards end */
 
-  /* section presales start */
-  .s-presales {
+  /* section braincert start */
+  .s-braincert {
     padding: 60px 0 60px 0;
   }
-  .c-presales {
+  .c-braincert {
     position: relative;
   }
-  .c-presales-icon {
+  .c-braincert-icon {
     width: 90px;
     height: 90px;
     position: absolute;
     top: -7%;
     right: 0;
   }
-  .c-presales-title {
+  .c-braincert-title {
     font-weight: 600;
     font-size: 28px;
     line-height: 42px;
     margin-bottom: 24px;
   }
-  .c-presales-description {
+  .c-braincert-description {
     font-weight: 400;
     font-size: 20px;
     line-height: 38px;
@@ -686,7 +686,7 @@ body {
     margin-bottom: 40px;
   }
 
-  /* section presales end*/
+  /* section braincert end*/
 
   /* section features start */
   .s-features {
@@ -744,35 +744,35 @@ body {
   }
   /* section features end */
 
-  /* section gartner start */
-  .c-gartner--container {
+  /* section solution start */
+  .c-solution--container {
     box-shadow: none;
     border-radius: 0;
     padding: 0;
   }
-  .c-gartner-title {
+  .c-solution-title {
     font-size: 28px;
     line-height: 36px;
     margin-bottom: 16px;
   }
-  .c-gartner-description {
+  .c-solution-description {
     font-size: 18px;
     line-height: 22px;
     margin-bottom: 32px;
   }
-  .c-gartner-sub-title {
+  .c-solution-sub-title {
     font-size: 20px;
     line-height: 24px;
     text-align: left;
     margin-bottom: 8px;
   }
-  .c-gartner-sub-description {
+  .c-solution-sub-description {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.1px;
     color: #565360;
   }
-  /* section gartner end */
+  /* section solution end */
 
   /* section benefits start */
   .s-benefits {
@@ -900,7 +900,7 @@ body {
   }
   /* section rewards end */
 
-  /* section presales start*/
+  /* section braincert start*/
   .c-radio {
     height: 65px;
     width: 410px;
@@ -919,24 +919,24 @@ body {
     height: 50px;
     width: 200px;
   }
-  .s-presales {
+  .s-braincert {
     padding: 120px 0 80px 0;
   }
-  .c-presales-icon {
+  .c-braincert-icon {
     width: 160px;
     height: 160px;
     top: -7%;
     right: 0;
   }
-  .c-presales-title {
+  .c-braincert-title {
     font-size: 36px;
     line-height: 48px;
   }
-  .c-presales-description {
+  .c-braincert-description {
     font-size: 24px;
     line-height: 42px;
   }
-  /* section presales end*/
+  /* section braincert end*/
 
   /* section features start */
   .s-features {
@@ -1042,44 +1042,44 @@ body {
   }
   /* section features end */
 
-  /* section gartner start */
-  .s-gartner {
+  /* section solution start */
+  .s-solution {
     padding-top: 120px;
     padding-bottom: 40px;
     position: relative;
   }
-  .c-gartner-ellipse {
+  .c-solution-ellipse {
     position: absolute;
     right: 0;
     top: 0;
   }
-  .c-gartner--container {
+  .c-solution--container {
     box-shadow: none;
     border-radius: 0;
     padding: 0;
   }
-  .c-gartner-title {
+  .c-solution-title {
     font-size: 36px;
     line-height: 48px;
     margin-bottom: 16px;
   }
-  .c-gartner-description {
+  .c-solution-description {
     font-size: 20px;
     line-height: 34px;
   }
-  .c-gartner-sub-title {
+  .c-solution-sub-title {
     font-size: 24px;
     line-height: 36px;
     text-align: left;
     margin-bottom: 24px;
   }
-  .c-gartner-sub-description {
+  .c-solution-sub-description {
     font-size: 20px;
     line-height: 44px;
     letter-spacing: 0.1px;
     color: #565360;
   }
-  /* section gartner end */
+  /* section solution end */
 
   /* section benefits start */
   .s-benefits {
